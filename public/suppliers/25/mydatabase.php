@@ -1,0 +1,1 @@
+$link = mysqli_connect("localhost", "johndoe", "pwd123123", "mydatabase");

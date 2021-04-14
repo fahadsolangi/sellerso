@@ -1,0 +1,137 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Order Confirmation</title>
+</head>
+<style>
+    table tr:first-child > td > center{
+        /*background: #ff0000;*/
+    }
+</style>
+<body>
+
+<table style="background:#FFFF; border:#01D1C4 3px solid;" width="900" cellspacing="0" cellpadding="0" border="0"
+       align="center">
+    <tbody>
+    <tr class="first">
+        <td>
+            <center>
+                <img src="public/images/email_logo.png" style="padding: 15px;height:100px" >
+            </center>
+        </td>
+    </tr>
+    <tr>
+        <td height="1"></td>
+    </tr>
+    <tr>
+        <td style="font-family:Arial, Helvetica, sans-serif;" bgcolor="#f5f9f6">
+            <table width="900" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tbody>
+                    
+                <tr>
+                    <td style="padding:8px 15px;"><p><strong>Dear ABC</strong></p>
+                        <p>
+                            Your order has been placed successfully. Below is details of your order. In case of any issue like register and login failer on software please contact with respective seller. Seller details is also mention in details.<br>
+                            Thanks for the using seller software
+                        </p>
+                    </td>
+                </tr>
+                <!--<tr>-->
+                <!--    <td style="font-size:13px; line-height:22px; padding:0 15px; margin-bottom:15px;">-->
+                <!--    <h4><b><a href="{{ url('invoice',$data->order_id) }}">Click here to see invoice</a></b></h4>-->
+                <!--    </td>-->
+                <!--</tr>-->
+                <tr style="margin:20px 0; float:left;height:50px;     background-color: #01d1c4;" bgcolor="#68A13E">
+                    <td width="900">
+                        <table style="margin-top:20px;" cellspacing="0" cellpadding="0" border="0"
+                               align="center">
+                            <tbody>
+                            <tr style="color:#fff;  ">
+
+                                <td width="251" align="left ">Order# : <b>ABC123XYZ</b></td>
+                                
+                                <td width="50">&nbsp;</td>
+                            
+
+                                <td width="50">&nbsp;</td>
+                                <td width="251" align="right">Order date : 10/10/2021</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size:13px; line-height:22px; padding:0 15px; margin-bottom:15px;">
+                        <!-- <strong>
+                            Expected delivery within 5 working days (please allow for up to 10 working days for delivery outside the UK).
+                        </strong><br /> -->
+                        Your email ID: bbb <br>
+                        <!--Your delivery address: <?/*=$userdata['signup_address1']*/?> <br>-->
+                        <!-- Scedule date & time : <strong></strong> -->
+                    </td>
+                </tr>
+
+                <tr style="margin:0px 0; float:left; height:50px;" bgcolor="#f6f5f5">
+                    <td width="900">
+                        <table style="margin-top:15px;" width="580" cellspacing="0" cellpadding="0" border="0"
+                               align="center">
+                            <tbody>
+                            <tr style="color:#000;  ">
+                                <td style="font-size:28px;" width="251" align="left ">Payment details</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+
+                <tr style="float:left; padding:0 0 10px;border-bottom: 1px solid #cbcaca; margin-bottom:15px; "
+                    bgcolor="#f6f5f5">
+
+                    <td width="900">
+                        <table style="margin-top:20px;" width="580" cellspacing="0" cellpadding="0" border="0"
+                               align="center">
+                            <tbody>
+                                <tr style="color:#000; height:30px;  ">
+                                    <td colspan="3" width="251" align="left">
+                                        Product Name : ABC
+                                    </td>
+                                </tr>
+                                    <tr style="color:#000; height:30px;  ">
+                                        <td width="251" align="left ">
+                                            Sub total 5
+                                        </td>
+                                        <td width="50">&nbsp;</td>
+                                        <td width="251" align="right">$ 200?></td>
+                                    </tr>
+
+                            <tr>
+                                <td colspan="3" style="color:#000;font-weight:bold">
+                                    ------------------------------------------------------------------------------------------------------------
+                                </td>
+                            </tr>
+                            <!--<tr style="color:#000;height:30px;">-->
+                            <!--    <td width="251" align="left"><strong>Shipping</strong></td>-->
+                            <!--    <td width="50">&nbsp;</td>-->
+                            <!--    <td width="251" align="right"><strong>£{{number_format($shipping, 2, '.', '')}}</strong></td>-->
+                            <!--</tr>-->
+                            <!--<tr style="color:#000;height:30px;">-->
+                            <!--    <td width="251" align="left"><strong>Discount</strong></td>-->
+                            <!--    <td width="50">&nbsp;</td>-->
+                            <!--    <td width="251" align="right"><strong>£{{number_format($discount, 2, '.', '')}}</strong></td>-->
+                            <!--</tr>-->
+                            <tr style="color:#000;height:30px;">
+                                <td width="251" align="left"><strong>Total</strong></td>
+                                <td width="50">&nbsp;</td>
+                                <td width="251" align="right"><strong>$ 500</strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
